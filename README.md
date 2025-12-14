@@ -62,7 +62,7 @@ This project implements various approaches for learning with noisy labels, inclu
 1. Clone this repository:
 ```bash
 git clone <your-repo-url>
-cd PLM-a
+cd ALNL
 ```
 
 2. Install required dependencies:
@@ -87,27 +87,3 @@ python lnl-human.py --dataset cifar10 --noise_rate 0.2 --epochs 40
 python lnl_combined.py --dataset cifar10 --noise_rate 0.2 --epochs 40
 ```
 
-### Compare Different Approaches
-```bash
-python compare_approaches.py
-```
-
-## Experimental Results
-
-The `res/` directory contains pre-trained models and experimental results for different noise rates (0.2, 0.4) on CIFAR-10 and CIFAR-100 datasets.
-
-## References
-
-This implementation builds upon several research works:
-
-1. **Unsupervised Classification**: [wvangansbeke/Unsupervised-Classification](https://github.com/wvangansbeke/Unsupervised-Classification.git)
-2. **Provably Label Noise Learning**: [xuefeng-li1/Provably-end-to-end-label-noise-learning-without-anchor-points](https://github.com/xuefeng-li1/Provably-end-to-end-label-noise-learning-without-anchor-points.git)
-3. **T-Revision**: [xiaoboxia/T-Revision](https://github.com/xiaoboxia/T-Revision.git)
-
-## Contributing
-
-Feel free to open issues and pull requests for any improvements.
-
-## License
-
-This project is for research purposes. Please refer to the original papers and repositories for licensing information.
