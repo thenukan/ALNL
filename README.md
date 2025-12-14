@@ -1,4 +1,4 @@
-# Provably Label-noise Learning (PLM)
+#Label-noise Learning 
 
 This repository contains implementation of provably label-noise learning methods combining techniques from multiple research papers.
 
